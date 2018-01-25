@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8">
+      <title>Exercicios JavaScript</title>
+      <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+      <header>
+        <h1 class="titulo">Exercicios <span id="titulo-javascript">Javascript</span><h1>
+        <h4>Data: <span class="data-hoje">0</span> ou <span class="current-date">1</span> </h4>
+      </header>
+      <section class="principal">
+        <main>
+          <p>Esses exercicios estão disponíveis no site da <a href="https://www.w3resource.com/javascript-exercises/">W3 Resources</a>.</p>
+          <p>Esse também será o HTML para todos os exercicios, podendo ser alterado conforme a necessidade.</p><br/><br/>
+          <p>Quer saber se determinado ano é bisexto? É só fazer o digitar o ano e clicar em "Descobrir!"</p>
+          <br/><br/>
+          <ul id="mensagem-erroAno"></ul>
+          <form id = "formulario-Ano">
+            <label for="calcular-anoBisexto">Digite o ano</label>
+            <input type="text" placeholder="Digite o ano" name="valorAno" id="input-anoBisexto">
+          </form>
+          <button id="botao-anoBisexto" class="botao bto-principal">Descobrir!</button> <p id="resultado-anoBisexto"></p>
+          <button id="botao-imprimir" class="botao bto-principal">Imprimir</button>
+        </main>
+    </section>
+    <script src="Beginners\1-displayDateSpecificFormat.js"></script>
+    <script src="Beginners\2-printCurrentWindow.js"></script>
+    <script src="Beginners\3-displayCurrentDate.js"></script>
+    <script src="Beginners\5-rotateStringLeftToRight.js"></script>
+    <script src="Beginners\6-CheckLeapYear.js"></script>
+    </body>
+</html>
